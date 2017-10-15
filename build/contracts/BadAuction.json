@@ -1,0 +1,59 @@
+{
+  "contract_name": "BadAuction",
+  "abi": [
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "getHighestBidder",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [],
+      "name": "bid",
+      "outputs": [
+        {
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "payable": true,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "getHighestBid",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "payable": true,
+      "type": "fallback"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000f57600080fd5b5b6101c08061001f6000396000f300606060405236156100535763ffffffff7c01000000000000000000000000000000000000000000000000000000006000350416623495a481146100575780631998aeef146100935780634979440a146100af575b5b5b005b341561006257600080fd5b61006a6100d4565b60405173ffffffffffffffffffffffffffffffffffffffff909116815260200160405180910390f35b61009b6100f1565b604051901515815260200160405180910390f35b34156100ba57600080fd5b6100c261018d565b60405190815260200160405180910390f35b60005473ffffffffffffffffffffffffffffffffffffffff165b90565b60006001543411156101845760005460015473ffffffffffffffffffffffffffffffffffffffff9091169080156108fc0290604051600060405180830381858888f19350505050151561014357600080fd5b503460019081556000805473ffffffffffffffffffffffffffffffffffffffff19163373ffffffffffffffffffffffffffffffffffffffff161790556100ee565b600080fd5b5b90565b6001545b905600a165627a7a72305820a81c798b3970f4f80aa8e4a2411691c8f1323f197fb9c262f5415a9e772b1fd70029",
+  "networks": {
+    "1508031400790": {
+      "events": {},
+      "links": {},
+      "address": "0xebf79ac0bef86ea6b9fbe56b9da9d4c34292fe02",
+      "updated_at": 1508031411994
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1508031411994
+}
