@@ -21,7 +21,7 @@ contract BadAuction is AuctionInterface {
 			highestBidder = msg.sender;
 			return true;
 		} else {
-			revert();
+			msg.sender.transfer(msg.value);
 			return false;
 		}
 	}
